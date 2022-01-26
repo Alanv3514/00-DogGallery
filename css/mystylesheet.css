@@ -1,5 +1,37 @@
-@charset "utf-8"
+@charset "utf-8";
 
 body{
-	background-color: darkred;
+	
+}
+
+#CabeceraMain {
+	width: 300px;
+	background-color: antiquewhite;
+	text-align:center;
+	text-shadow: color:red 3px 3px 5px;
+	margin: 15px auto;
+	padding:15px;
+	border: 3px solid #874410;
+	border-radius: 20px 20px 20px 20px;
+}
+#NavPrinc{
+	background-color: antiquewhite;
+}
+
+#BarraLateral{
+	background-color: antiquewhite;
+	float:left;
+	height:1150px;
+}
+#PiePrincipal{
+	
+}
+
+li{
+	width: 25px;
+	background-color: antiquewhite;
+	border-radius: 20px 20px 20px 20px;
+	display:inline;
+	color:blue;
+	transition:transform 1s ease 0.5s;
 }
